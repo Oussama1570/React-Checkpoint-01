@@ -1,0 +1,90 @@
+
+/*  Navbar */ 
+
+.Navbar {position: relative; left: 50%; right: 25%;}
+
+.LogoMyTech {position: absolute; top: 0.8%; left: 75%; 
+width: 42px; background-color: aliceblue; border-radius: 5%; left: 5%;}
+
+{/* MainTitle */}
+
+.MainTitle {text-align: center; justify-content: center; font-size: 60px; color: rgb(71, 14, 124) ; font-style: italic; margin-top: 2%;
+}
+
+.MainTitle {
+  color: #fff; /* Initial text color (optional) */
+  animation: colorCycle 5s ease-in-out infinite alternate;
+}
+
+@keyframes colorCycle {
+  0% { color: rgb(46, 202, 137); } /* Red */
+  25% { color: #ff0; } /* Yellow */
+  50% { color: #0f0; } /* Green */
+  75% { color: #00f; } /* Blue */
+  100% { color: #f00; } /* Back to red */
+}
+
+
+
+/* Greeting */
+
+
+
+.greeting { justify-content: center;text-align: center; margin-top: 5%; font-style: italic; font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold; color: rgb(71, 44, 5);
+   
+}
+
+
+.greeting {
+  text-decoration: none; /* Remove default underline */
+}
+
+.ProfileIMG { justify-content: center; margin-left: 47%;height: 100px; width: 100px;}
+
+
+
+.greeting:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+.greeting {
+  transition: transform 0.2s ease-in-out; /* Smooth transition */
+}
+
+.greeting:hover {
+  transform: scale(1.05); /* Increase font size on hover */
+}
+
+
+
+
+
+/* Card */
+
+
+
+.cardP { margin-left: 40%; margin-top:5%;margin-bottom: 5%;justify-content: center; 
+   
+    border: 0px solid #ddd;
+    padding: 2px;
+    border-radius: 5px; /* Add some rounded corners */
+    
+    transition: box-shadow 0.3s ease-in-out; /* Smooth transition */ }
+
+
+    .card:hover {
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Subtle text shadow */
+      }
+
+
+.NameP { text-align: center;color: rgb(18, 8, 75) !important; font-size: 10px !important; font-style: italic;}
+.DescriptionP {text-align: center; size: 80%;margin-left: 5%;margin-top: 15%; font-size: 10px; }
+.PriceP {justify-content: center;text-align: center; margin-top: 15%; }
+
+.BuyBtn {justify-content: center;text-align: center; margin-left: 36%;margin-top: 2%;}
+
+
+
+
